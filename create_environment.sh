@@ -72,8 +72,8 @@ Chinemerem, Shell Navigation, not submitted
 Chiagoziem, Git, submitted
 Divine, Shell Navigation, not submitted
 Anissa, Shell Basics, submitted
-David, Python Basics, submitted
-Katate, File Permissions, not submitted
+David, Python, submitted
+Katate, Permissions, not submitted
 Suzan, Java, submitted
 Mutoni, Leadership, not submitted
 Shane, AI, submitted
