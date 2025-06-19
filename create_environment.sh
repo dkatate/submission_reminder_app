@@ -92,9 +92,11 @@ echo "config.env populated"
 # create startup.sh script
 cat << 'EOF' > "$root/startup.sh"
 #!/usr/bin/env bash
-
-# Change into the script's own directory
+# Source configuration and functions
 cd "$(dirname "$0")" || exit 1
+source ./config/config.env
+source ./modules/functions.sh
+# Change into the script's own directory
 
 ./app/reminder.sh
 EOF
